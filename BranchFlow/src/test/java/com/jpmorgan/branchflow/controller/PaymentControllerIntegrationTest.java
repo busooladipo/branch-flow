@@ -23,7 +23,7 @@ class PaymentControllerIntegrationTest {
                         .param("originBranch", "A")
                         .param("destinationBranch", "D"))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.route").value("A,B,D"));
+                .andExpect(jsonPath("$.route").value("A,C,E,D"));
     }
 
     @Test

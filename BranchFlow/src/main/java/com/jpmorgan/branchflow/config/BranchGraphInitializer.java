@@ -36,6 +36,7 @@ public class BranchGraphInitializer {
                 new Link("B", "D"),
                 new Link("C", "E"),
                 new Link("D", "E"),
+                new Link("E", "D"),
                 new Link("D", "F"),
                 new Link("E", "F")
         ));
